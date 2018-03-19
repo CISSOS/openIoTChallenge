@@ -1,0 +1,64 @@
+{
+    "thingId": "your.org.com:XDKTwin",
+    "policyId": "your.org.com:XDKTwin",
+    "features": {
+        "acc": {
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "z": "0"
+            }
+        },
+        "gyro": {
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "z": "0"
+            }
+        },
+        "mag": {
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "z": "0"
+            }
+        },
+       "humidity": {
+            "properties": {
+                "value": "0"
+            }
+        },
+
+        "light": {
+            "properties": {
+                "value": "0"
+            }
+        },
+        "temperature": {
+            "properties": {
+                "value": "0"
+            }
+        },
+        "pressure": {
+            "properties": {
+                "value": "0"
+            }
+        },
+        "history": {
+            "properties": {
+                "max_humidity": "0",
+                "min_humidity": "0",
+                "avg_humidity": "0",
+                "max_light": "0",
+                "min_light": "0",
+                "avg_light": "0",
+	            "max_pressure": "0",
+	            "min_pressure": "0",
+	            "avg_pressure": "0",
+                "max_temperature": "0",
+                "min_temperature": "0",
+                "avg_temperature": "0",
+             }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XDK MQTT Processor
+Bundle-SymbolicName: de.bosch.com.example.mqttprocessor
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bazaarvoice.jolt;version="0.1.0",
+ com.bazaarvoice.jolt.utils;version="0.1.0",
+ org.apache.camel;version="2.17.2",
+ org.apache.camel.builder;version="2.17.2",
+ org.apache.camel.component;version="2.17.2",
+ org.apache.camel.component.jolt;version="2.17.2",
+ org.apache.camel.component.mqtt;version="2.17.2",
+ org.apache.camel.core.osgi;version="2.17.2",
+ org.apache.camel.impl;version="2.17.2",
+ org.apache.camel.model;version="2.17.2",
+ org.eclipse.kura.camel.utils;version="1.1.0",
+ org.eclipse.kura.configuration;version="1.1.2",
+ org.osgi.framework;version="1.8.0",
+ org.osgi.service.component;version="1.2.2",
+ org.slf4j;version="1.7.21"
+Service-Component: OSGI-INF/component.xml
+Bundle-ClassPath: .,
+ lib/json-utils-0.0.10.jar,
+ resources/spec.json

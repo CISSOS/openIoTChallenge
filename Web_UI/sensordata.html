@@ -1,0 +1,62 @@
+<html>
+<head>
+
+  <!-- Google Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  <!-- Google Charts -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <!-- JavaScript and CSS -->
+  <script type="text/javascript" src="webuihttp.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <title> Sensor Data </title>
+
+</head>
+
+<body>
+
+  <h1> Sensor Data </h1>
+
+  <!-- Icon and headline that are changed according to the selected parameter -->
+  <i class="material-icons" id="icon">timeline</i>
+  <p id="current_headline">Please select a parameter from the list. <p>
+
+  <!-- Div container for the line chart -->
+  <div id="chart"></div>
+
+  <!-- Display the device name -->
+  <p id="device-name"> </p>
+
+  <!-- Menu for selecting the displayed parameter -->
+  <div id="legend">
+    <button class="legend-button" id ="button_temp">Temperature in °C</button>
+    <button class="legend-button" id ="button_humidity">Humidity in %</button>
+    <button class="legend-button" id ="button_pressure">Pressure in hPa</button>
+    <button class="legend-button" id ="button_light">Light in lux</button>
+    <button class="legend-button" id ="button_magnetic">Magnetic field strength</br>in µT</button>
+    <button class="legend-button" id ="button_accel">Acceleration in g</button>
+    <button class="legend-button" id ="button_gyro">Angular velocity (Gyroscope) in °/s</button>
+  </div>
+
+<!-- Legend for x-, y-, & z-axis -->
+<div id="axis-legend">
+  <p class="legend-label"> <i class="material-icons" id="circle-x">fiber_manual_record</i> x-axis </p>
+  <p class="legend-label"> <i class="material-icons" id="circle-y">fiber_manual_record</i>y-axis </p>
+  <p class="legend-label"> <i class="material-icons" id="circle-z">fiber_manual_record</i>z-axis </p>
+</div>
+
+<div id="history">
+  <p id="min" class="history-value"></p><br>
+  <p id="max" class="history-value"></p><br>
+  <p id="avg" class="history-value"></p>
+</div>
+
+</body>
+
+</html>

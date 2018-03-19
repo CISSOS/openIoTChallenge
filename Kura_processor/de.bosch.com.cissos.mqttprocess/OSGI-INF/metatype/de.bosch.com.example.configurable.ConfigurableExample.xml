@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData xmlns="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="en_us">
+    <OCD id="de.bosch.com.example.configurable.ConfigurableExample"
+        name="CISSOS JSON Processor"
+        description="This is a sample metatype file for a simple configurable component">
+
+        <AD id="sourceChannel.string"
+            name="sourceChannel.string"
+            type="String"
+            cardinality="0"
+            required="true"
+            default="+/+/+/+/+/stream"
+            description="Source MQTT channel"/>
+
+        <AD id="targetChannel.string"
+            name="targetChannel.string"
+            type="String"
+            cardinality="0"
+            required="true"
+            default="BCDS.mqtt.transformed.stream"
+            description="Target MQTT channel"/>
+    </OCD>
+
+    <Designate pid="de.bosch.com.example.configurable.ConfigurableExample">
+        <Object ocdref="de.bosch.com.example.configurable.ConfigurableExample"/>
+    </Designate>
+</MetaData>

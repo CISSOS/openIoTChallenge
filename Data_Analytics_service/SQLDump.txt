@@ -1,0 +1,54 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Mar 15, 2018 at 04:04 PM
+-- Server version: 10.1.30-MariaDB
+-- PHP Version: 5.6.33
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+--
+-- Database: `twindb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sensordata`
+--
+
+CREATE TABLE `sensordata` (
+  `measure_id` int(200) NOT NULL,
+  `timestamp` timestamp NULL DEFAULT NULL,
+  `thing_id` int(11) DEFAULT NULL,
+  `temperature` int(11) DEFAULT NULL,
+  `humidity` int(11) DEFAULT NULL,
+  `pressure` int(11) DEFAULT NULL,
+  `light` int(11) DEFAULT NULL,
+  `mag_x` int(11) DEFAULT NULL,
+  `mag_y` int(11) DEFAULT NULL,
+  `mag_z` int(11) DEFAULT NULL,
+  `acc_x` int(11) DEFAULT NULL,
+  `acc_y` int(11) DEFAULT NULL,
+  `acc_z` int(11) DEFAULT NULL,
+  `gyro_x` int(11) DEFAULT NULL,
+  `gyro_y` int(11) DEFAULT NULL,
+  `gyro_z` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ALTER TABLE `sensordata`
+  ADD PRIMARY KEY (`measure_id`);
+
+
+--
+-- AUTO_INCREMENT for table `sensordata`
+--
+ALTER TABLE `sensordata`
+  MODIFY `measure_id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1767;
+COMMIT;

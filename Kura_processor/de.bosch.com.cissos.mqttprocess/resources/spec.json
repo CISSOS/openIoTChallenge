@@ -1,0 +1,23 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "metrics": {
+        "acc_x": "acc.properties.x",
+        "acc_y": "acc.properties.y",
+        "acc_z": "acc.properties.z",
+        "gyro_x": "gyro.properties.x",
+        "gyro_y": "gyro.properties.y",
+        "gyro_z": "gyro.properties.z",
+        "mag_x": "mag.properties.x",
+        "mag_y": "mag.properties.y",
+        "mag_z": "mag.properties.z",
+        "light": "light.properties.value",
+        "temperature": "temperature.properties.value",
+        "pressure": "pressure.properties.value",
+        "humidity": "humidity.properties.value"
+      }
+    }
+  }
+
+]
