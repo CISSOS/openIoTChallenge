@@ -33,8 +33,8 @@ Please note, that this repository and all the included source code is being prov
 		- Enabled = true
 		- MQTT address = 0.0.0.0
 		- MQTT broker port = 1883
-		- User name = <blank>
-		- Password of the user = <blank>
+		- User name = blank
+		- Password of the user =blank
 	- Firewall
 		- Create entry for Port 1883 | tcp | 0.0.0.0/0 | eth0 
 		-  Create entry for Port 1883 | tcp | 0.0.0.0/0 | wlan0
@@ -43,7 +43,7 @@ Please note, that this repository and all the included source code is being prov
 
 # XDK
 1. Download and install the XDK Workbench Version 2.0.1 as described here: https://xdk.bosch-connectivity.com/de/software-downloads
-2. Open the XDK Worbench and import the project from the folder /XDK_Application/Bosch-XDK-Portal-orig
+2. Open the XDK Worbench and import the project from the folder /XDK_Application/Bosch-XDK-Portal-orig (please note, that this project is just a slightly modified version of a project, that is delivered with the XDK-Workbench by Bosch Connected Devices and Solutions!)
 3. Open the file /source/protected/BCDS_bxpConfig.h and change the network settings to the network, that you just created on Kura (Network Settings -> wlan0 -> wireless)
 4. Save the file
 5. Build the project (Project -> Build all or by pressing Ctrl+B)
