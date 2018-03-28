@@ -1,3 +1,4 @@
+﻿
 # CISSOS Open IoT Challenge Project
 
 The projects in this repository were created by the CISSOS team for the Open IoT Challenge hosted by eclipse IoT. For further background information, please feel free to find our blog on medium:
@@ -91,3 +92,16 @@ https://dototot.com/how-to-write-a-twitter-bot-with-python-and-tweepy/
 2. pip install the tweepy library: https://github.com/tweepy/tweepy
 3. Modify the python script provided under /Twitter_Bot according to the comments within the file
 4. Execute the python script
+# Used 3rd party Licenses
+|Software| License |
+|--|--|
+[Google Charts](https://developers.google.com/chart/) |[Google API Terms of Service](https://developers.google.com/terms/)|
+[Requests](http://docs.python-requests.org/en/master/)| [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)|
+[Tweepy](http://www.tweepy.org/) | [MIT License](https://opensource.org/licenses/MIT)|
+[MySQLdb](https://github.com/PyMySQL/mysqlclient-python) |[GNU General Public License,](https://www.gnu.org/licenses/gpl-2.0.html)                        [Zope Public License](http://old.zope.org/Resources/License.1)|
+[Twitter Apps](https://apps.twitter.com/)| [Twitter Developer Terms](https://developer.twitter.com/en/developer-terms/agreement-and-policy)|
+[phpMyAdmin](https://www.phpmyadmin.net)| [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html) |
+[Eclipse Paho Java Client](https://eclipse.org/paho/clients/java/#in_browser)|[Eclipse Foundation User Agreement](https://chess.eecs.berkeley.edu/ptexternal/src/ptII/lib/org.eclipse.paho.client.mqttv3-license.htm)|
+
+
+
